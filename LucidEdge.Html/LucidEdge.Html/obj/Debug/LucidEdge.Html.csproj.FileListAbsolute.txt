@@ -1,5 +1,0 @@
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html\LucidEdge.Html\bin\Debug\LucidEdge.HtmlFragment.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html\LucidEdge.Html\bin\Debug\LucidEdge.HtmlFragment.pdb
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html\LucidEdge.Html\obj\Debug\ResolveAssemblyReference.cache
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html\LucidEdge.Html\obj\Debug\LucidEdge.HtmlFragment.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html\LucidEdge.Html\obj\Debug\LucidEdge.HtmlFragment.pdb

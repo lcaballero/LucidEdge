@@ -1,5 +1,0 @@
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Core\bin\Debug\LucidEdge.Core.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Core\bin\Debug\LucidEdge.Core.pdb
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Core\obj\Debug\ResolveAssemblyReference.cache
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Core\obj\Debug\LucidEdge.Core.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Core\obj\Debug\LucidEdge.Core.pdb

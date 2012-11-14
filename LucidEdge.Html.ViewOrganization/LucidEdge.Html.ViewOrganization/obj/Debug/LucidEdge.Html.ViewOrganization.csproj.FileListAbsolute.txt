@@ -1,7 +1,0 @@
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.ViewOrganization\LucidEdge.Html.ViewOrganization\bin\Debug\LucidEdge.IHtml.ViewOrganization.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.ViewOrganization\LucidEdge.Html.ViewOrganization\bin\Debug\LucidEdge.IHtml.ViewOrganization.pdb
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.ViewOrganization\LucidEdge.Html.ViewOrganization\bin\Debug\LucidEdge.HtmlFragment.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.ViewOrganization\LucidEdge.Html.ViewOrganization\bin\Debug\LucidEdge.HtmlFragment.pdb
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.ViewOrganization\LucidEdge.Html.ViewOrganization\obj\Debug\ResolveAssemblyReference.cache
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.ViewOrganization\LucidEdge.Html.ViewOrganization\obj\Debug\LucidEdge.IHtml.ViewOrganization.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.ViewOrganization\LucidEdge.Html.ViewOrganization\obj\Debug\LucidEdge.IHtml.ViewOrganization.pdb

@@ -1,5 +1,0 @@
-C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution\bin\Debug\LucidEdge.DataBase.Execution.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution\bin\Debug\LucidEdge.DataBase.Execution.pdb
-C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution\obj\Debug\ResolveAssemblyReference.cache
-C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution\obj\Debug\LucidEdge.DataBase.Execution.dll
-C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution\obj\Debug\LucidEdge.DataBase.Execution.pdb
