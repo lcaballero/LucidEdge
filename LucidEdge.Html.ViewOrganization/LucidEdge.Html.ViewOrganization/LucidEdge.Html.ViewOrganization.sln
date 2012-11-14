@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.Html.ViewOrganization", "LucidEdge.Html.ViewOrganization.csproj", "{0CC009BC-D14B-406F-91C3-4F45FEBD56AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.Html", "..\..\LucidEdge.Html\LucidEdge.Html\LucidEdge.Html.csproj", "{1BF3BBB2-EBAE-4289-A489-4A59F64EDC4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CC009BC-D14B-406F-91C3-4F45FEBD56AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC009BC-D14B-406F-91C3-4F45FEBD56AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC009BC-D14B-406F-91C3-4F45FEBD56AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC009BC-D14B-406F-91C3-4F45FEBD56AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF3BBB2-EBAE-4289-A489-4A59F64EDC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF3BBB2-EBAE-4289-A489-4A59F64EDC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF3BBB2-EBAE-4289-A489-4A59F64EDC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF3BBB2-EBAE-4289-A489-4A59F64EDC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

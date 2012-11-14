@@ -1,0 +1,448 @@
+﻿
+.clear							{ clear:both; }
+
+.more-link						{ clear:both; text-align:right;   }
+.more-link span					{ background:url("http://cdn-images.hollywood.com/site/dots.gif") no-repeat scroll left center transparent; padding-left:25px; }
+.more-link a					{ padding-right:10px; background:url("http://cdn-images.hollywood.com/site/arr.gif") no-repeat scroll right center transparent;}
+
+
+
+
+	
+#movie-detail h2,
+#movie-review h2				{ font-size:20px !important; }
+
+
+#movie-detail a img				{ border:1px solid #000; }
+#movie-detail .subhead			{ background:none !important; }
+#movie-detail .breadcrumbs		{ margin-bottom:15px; }
+
+.rovi							{ margin:10px 0px; }
+
+
+.movie-item						{ clear:both; }
+.movie-item .thumb				{ float:left; width:100px; height:150px; background:#CCC; margin-bottom:10px; }
+.movie-item .thumb img			{ border:1px solid #000; width:100px; height:150px;}
+.movie-item .info				{ width:160px; margin-left:105px; }
+.movie-item .info .title,
+.movie-item .info .release,
+.movie-item .info .descr,
+.movie-item .info .trailer,
+.movie-item .info .recommend,
+.movie-item .info .comments		{ padding-top:2px; }
+.movie-item .info .title a		{ font-size:15px; }
+
+
+.movie-int-item					{ float:left; width: 128px; margin:0px 15px 10px 0px; }
+.movie-int-item img				{ border:1px solid #000; }
+.movie-int-item .thumb			{}
+.movie-int-item .thumb img		{ height:72px; width:128px; }
+.movie-int-item .title			{ }
+.movie-int-item .title a		{ font-size:15px; }
+.movie-int-item .links			{ padding-top:2px; }
+.movie-int-item .links span		{ padding:0px 5px; }
+.movie-int-item .links a		{ }
+
+
+
+
+
+.movie-detail-cast			{ margin-top:30px; }
+.movie-detail-cast .more	{ text-align:right; padding-top:18px; }
+
+
+.movie-detail-trailers		{ margin-top:30px; }
+.movie-detail-trailers .more	{ text-align:right; padding-top:18px; }
+
+.movie-detail-news		{ margin-top:30px; }
+.movie-detail-news .more	{ text-align:right; padding-top:18px; }
+
+.movie-detail-photos		{ margin-top:30px; }
+.movie-detail-photos .more	{ text-align:right; padding-top:18px; }
+
+
+.movie-news					{ list-style:none; }
+.movie-news li				{ list-style:none; margin-bottom:10px; }
+.movie-news li .thumb		{ width:70px; float:left; }
+.movie-news li .thumb img	{ width:70px; border-color:#000 !important;}
+.movie-news li .tease		{ width: 540px; float:left; margin-left:10px; }
+.movie-news li .tease a,
+.movie-news li .tease p		{ font-size:13px; padding:0px; margin:0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detail-photo-list			{ }
+.detail-photo-list,
+.detail-photo-list li		{ list-style:none; }
+.detail-photo-list li		{ width:143px; float:left; margin:0px 5px; height:160px; }
+.detail-photo-list li img	{ width:143px; background:#CCC; border-color:#000 !important; display:block; }
+.detail-photo-list li	a	{ font-size:12px; color:#0D61A8; display:block; text-align:center; }
+.detail-photo-list .more	{ text-align:right; padding-top:18px; }
+
+.showtimes-search				{ margin-top:20px; }
+.showtimes-search .title		{ text-align:center; }
+.showtimes-search .body			{ background:url('/images/movie-detail/showtimes_bg.jpg') no-repeat; height:112px; margin:0px auto; border:1px solid #E2E2E2; width:286px; }
+.showtimes-search .body label,
+.showtimes-search .body input	{ display:block; margin-left:100px; font-size:13px; color:#000; }
+.showtimes-search .body label	{ margin-top:15px; }
+.showtimes-search .body .text	{ margin-top:5px; width:156px; height:24px; border:1px solid #BA150D; }
+.showtimes-search .body .button	{ margin-top:5px; border:1px solid #BA150D; background:url('/images/movie-detail/tab-center.jpg') repeat-x; text-align:center; color:#FFF; font-weight:bold; padding:4px;}
+
+
+.create-fan-site				{ font-size:13px;  width:286px; margin:10px auto; }
+.create-fan-site .title			{ background:#BA150D; color:#FFF; padding:2px; font-size:16px; font-weight:bold; }
+.create-fan-site .body			{ background:url('/images/movie-detail/fansite_bg.jpg') no-repeat; height:94px; border:1px solid #E2E2E2; padding-left:85px; padding-top:17px;  }
+.create-fan-site .more			{ color:#0d61a8; display:block; }
+
+
+
+
+.movie-detail-related			{ margin-top:10px; }
+.movie-detail-related .title	{ text-align:center; }
+.movie-detail-related .body		{ font-size:13px;  width:286px; margin:0px auto; border:1px solid #E2E2E2; }
+.movie-detail-related ul,
+.movie-detail-related li		{ list-style:none; margin:0px; padding:0px; }
+.movie-detail-related li		{ background:url('/images/movie-detail/related_bullet.jpg') no-repeat; background-position:center left; padding:5px 0px 5px 20px; margin-left:10px; border-bottom:1px dotted #EEE; }
+.movie-detail-related li a		{ color:#0D61A8; font-size:12px; font-weight:bold;  }
+
+
+
+#movie-detail					{ }
+#movie-detail h2				{ font-size:20px; text-transform:uppercase; margin-bottom:10px; }
+
+
+.movie-detail-nav				{ list-style:none; padding:0px; margin:20px 0px; font-size:0px; background:#FFF; width:639px; height:29px; display:block; }
+.movie-detail-nav li			{ list-style:none; padding:7px 13px; margin:0px; height:15px; display:inline-block; background:url('/images/movie-detail/tab-center.jpg') repeat-x; zoom:1; *display: inline; border-right:1px solid #000; }
+.movie-detail-nav li a			{ color:#FFF; font-weight:bold; font-size:13px; text-transform:uppercase; }
+.movie-detail-nav li span		{ color:#BBB; font-weight:bold; font-size:13px; text-transform:uppercase; }
+.movie-detail-nav li.first		{ background:url('/images/movie-detail/tab-left.jpg') no-repeat; padding-left:18px; }
+.movie-detail-nav li.last		{ background:url('/images/movie-detail/tab-right.jpg') no-repeat right top; padding-right:18px; border-right:0px; }
+.movie-detail-nav .active		{ background:url('/images/movie-detail/tab-center-active.jpg') repeat-x; }
+.movie-detail-nav .active-last	{ background:url('/images/movie-detail/tab-right-active.jpg') no-repeat right top; padding-right:20px; border-right:0px;}
+.movie-detail-nav .active-first	{ background:url('/images/movie-detail/tab-left-active.jpg') no-repeat;  padding-left:20px; }
+
+
+
+
+.movie-detail-info				{ }
+.movie-detail-info .poster		{ float:left; width:150px; }
+.movie-detail-info .detail		{ float:left; width:470px; }
+.movie-detail-info .detail h1	{ font-size:24px; font-weight:bold; }
+.movie-detail-info .detail ul	{ margin-top:20px; list-style:none; margin:0px; padding:0px; margin-bottom:10px; }
+.movie-detail-info .detail li	{ font-size:13px; list-style:none; margin:0px; padding:0px; }
+
+
+.movie-detail-critics			{ margin-bottom:30px; font-size:11px; }
+.movie-detail-critics h2		{ margin:30px 0px 10px 0px; }
+.movie-detail-critics .box		{ padding:15px; }
+.movie-detail-critics .hollywood{ border-right:1px solid #000; float:left; width:290px; text-align:center; padding:0px 10px; padding-top:15px;}
+.movie-detail-critics .spill	{ float:left; width:290px; text-align:center; margin-left:10px; }
+
+
+
+
+
+#movie-review .review-title		{ margin:30px 0px 20px 0px; }
+#movie-review .author			{ margin-bottom:20px; }
+#movie-review .review-comments	{ margin:20px 0px; }
+#movie-review .review-text h2	{ font-size:16px; margin:10px 0px; }
+
+
+.side-photo-list				{ list-style:none; padding:0px; margin:0px; position:relative; }
+.side-photo-list li				{ float:left; width:75px; margin:10px; list-style:none; padding:0px; position:relative; }
+.side-photo-list li .info		{ display:none; position:absolute; top:80px; z-index:9999; width:200px; border:#B3DEFF 3px solid; background:#FFF; padding:5px; }
+.side-photo-list li .callout	{ display:none; position:absolute; top:70px; left:28px; }
+.side-photo-list li .title		{ padding-top:5px; color:#000; }
+.side-photo-list li .date		{ font-size:11px; padding-top:5px; }
+
+
+.social-icons					{ list-style:none; margin:20px 0px 20px 60px; }
+.social-icons li				{ list-style:none; width:70px; float:left; }
+.social-icons .like				{ padding-top:3px; width:60px; }
+
+#movie-detail-social						{ position:relative; }
+#movie-detail-social .email					{ overflow:hidden; position:absolute; top:0px; left:0px; width:310px; background:#FFF; z-index:999997; }
+#movie-detail-social .email ul,
+#movie-detail-social .email li				{ list-style:none; list-style-type:none; padding:0px; margin:0px; clear:both; }
+#movie-detail-social .email li				{  }
+#movie-detail-social .email div				{ padding:10px; position:relative; }
+#movie-detail-social .email label			{ color:#000; display:inline-block; width:40px; text-align:right; float:left;}
+#movie-detail-social .email textarea,
+#movie-detail-social .email input			{ border:1px solid #000000; background:#FFF; color:#000; margin:1px; float:left; width:190px; }
+#movie-detail-social .email input.error		{ background:#CC736B; }
+#movie-detail-social .email textarea		{ height:40px; }
+#movie-detail-social .email .button			{ color:#FFF; width:50px; background:#BB0000; border:0px; float:left; margin-top:24px; }
+#movie-detail-social .email .error-message	{ color:#FF0000; text-align:center; font-weight:bold; }
+#movie-detail-social .email .to-field,
+#movie-detail-social .email .from-field		{ height:22px; }
+#movie-detail-social .email .body-field		{ height:40px; }
+#movie-detail-social .email .close-email	{ position:absolute; top:-10px; right:-10px; color:#CC0000; cursor:pointer; display:block; width:14px; height:14px; margin:20px 20px 0px 0px; }
+
+
+
+
+
+
+.top-movie-item					{ width:230px; }
+.top-movie-item a 				{ font-size:14px; }
+
+.MovieComing img,
+#celeb_top_fansites img,
+#tvStills img,
+#movieBlogs img,
+.VideoMovies img,
+.movieStills img,
+.newTrailers img				{ border:1px solid #000 !important; }
+
+
+
+ 
+.movie-video-item						{ }
+.movie-video-item .video-title			{ text-align:center !important; }
+
+
+
+
+
+#bo-left							{ float:left; width: 314px; }
+#bo-right							{ float:left; width: 327px; }
+
+
+
+
+
+#gallery							{ }
+#gallery .outer-list ul				{ list-style-type:none; margin:0px auto; clear:both; display:inline-block; }
+#gallery .outer-list ul li			{ float:left; margin:5px; list-style-type:none; }
+
+
+#gallery .pager,
+#lightbox .pager					{ clear:both; }
+#gallery .pager,
+#lightbox .pager li					{ width:auto !important; display:inline-block !important; }
+#gallery .pager li span,
+#gallery .pager li a,
+#lightbox .pager li span,
+#lightbox .pager li a				{ width:auto; height:auto; padding:5px 10px; text-align:center; border:1px solid #000; display:inline-block; font-size:12px; }
+
+
+#lightbox .pager .prev-page				{  }
+#lightbox .pager .prev-page a			{ background:url('../images/lightbox/back_small.png') no-repeat; background-position:center; width:37px !important; height:11px; padding:0px; margin-top:6px; }
+#lightbox .pager .prev-page a:hover		{ background:url('../images/lightbox/back_small_over.png') no-repeat; text-decoration:none; }
+#lightbox .pager .prev-disabled			{ width:37px !important; }
+#lightbox .pager .next-page				{ }
+#lightbox .pager .next-page a			{ background:url('../images/lightbox/next_small.png') no-repeat; background-position:center; width:35px !important; height:11px; padding:0px;  margin-top:6px; }
+#lightbox .pager .next-page a:hover		{ background:url('../images/lightbox/next_small_over.png') no-repeat; text-decoration:none; }
+#lightbox .pager .next-disabled			{ width:35px !important; }
+
+#gallery .pager							{ clear:both; display:block !important; }
+#gallery .pager .active					{ background:#1C8BE5; }
+#gallery .pager .active a				{ font-weight:bold; color:#FFF; }
+#gallery a img							{ border:0px; }
+
+
+#backdrop							{ background:url("/Images/macFFBgHack.png") repeat scroll 0 0 transparent; left:0; position:absolute; top:0; display:none; z-index:99999; width:100%; height:100%; }
+#lightbox							{ height:600px; width:980px; margin:20px auto; position:relative; display:none; text-align:left; }
+#lightbox .top						{ background:url('/Images/lightbox/bg-lightbox-top.png') no-repeat; height:55px; padding:20px 20px 0px 20px; position:relative; color:#FFF; }
+#lightbox .gallery-type				{ font-size:12px; text-transform:uppercase; margin: 22px 10px 0px 63px; padding:5px; float:left; text-align:right; }
+#lightbox .gallery-title			{ font-size:24px; margin:20px; overflow:hidden; height:30px; border-left:1px solid #CC001F; padding-left:5px;  }
+#lightbox .mid						{ background:url('/Images/lightbox/bg-lightbox-mid.png') repeat-y; padding:0px 20px; width:auto !important; }
+#lightbox .bottom					{ background:url('/Images/lightbox/bg-lightbox-bottom.png') no-repeat; height:30px; }
+#lightbox .close					{ position:absolute; top:14px; right:14px; height:26px; width:26px; background:url('/Images/btn-close.png') no-repeat; }
+#lightbox .footer					{ clear:both; height:25px;border-top:1px solid #CC001F; z-index:9999999; background:#000; }
+#lightbox .main						{ width:600px; height:500px; float:left; text-align:center; position:relative; }
+#lightbox .main .prev				{ position:absolute; left:20px; top:20px; background:url('/images/lightbox/prev_large.png') no-repeat; width:88px; height:36px; display:none; }
+#lightbox .main .next				{ position:absolute; right:20px; top:20px; background:url('/images/lightbox/next_large.png') no-repeat; width:88px; height:36px; display:none; }
+#lightbox .main .prev:hover			{ background:url('/images/lightbox/prev_large_over.png') no-repeat; }
+#lightbox .main .next:hover			{ background:url('/images/lightbox/next_large_over.png') no-repeat; }
+#lightbox .main img					{ margin:10px; }
+#lightbox .copyright				{ font-size:10px; font-style:italic; color:#AAA; display:none; }
+#lightbox .share-icons				{ height:0px; width:310px; background:url('/images/lightbox/share_background.png') no-repeat; top:595px; position:absolute; z-index:999997; left:204px; overflow:hidden; }
+#lightbox .share-icons div			{ padding:10px; text-align:center; }
+#lightbox .share-icons img			{ border:0px !important; cursor:pointer; }
+
+#lightbox .side						{ width:310px; float:right; border-left:1px solid #CC001F; height:520px; }
+#lightbox .info						{ padding:10px; height:130px; overflow:hidden; }
+#lightbox .info .play				{ float:left; width:86px; cursor:pointer; background:url('../Images/Lightbox/play.png') no-repeat; width:86px; height:11px; }
+#lightbox .info .play:hover			{ background:url('../Images/Lightbox/play_over.png') no-repeat; }
+#lightbox .info .stop				{ background:url('../Images/Lightbox/stop.png') no-repeat; float:left; width:39px; height:10px; cursor:pointer;  }
+#lightbox .info .stop:hover			{ background:url('../Images/Lightbox/stop_over.png') no-repeat;}
+#lightbox .info .count				{ float:right; width:100px; text-align:right; font-size:11px; color:#FFF; }
+#lightbox .info .photo-title		{ clear:both; font-size:14px; font-weight:bold; margin:20px 0px 5px 0px; color:#FFF; } 
+#lightbox .info .photo-caption		{ color:#FFF; font-size:12px; font-weight:normal; }
+
+#lightbox .inner-list				{ position:absolute; z-index:9999998; top:595px; left:21px; width:945px; height:0px; overflow:hidden; background:#000; border-top:1px solid #CC001F; }
+#lightbox .inner-list ul			{ list-style:none; }
+#lightbox .inner-list li			{ float:left; width:143px; margin:5px; list-style:none; }
+#lightbox .inner-list li.active a	{ color:#CC0000; text-decoration:underline; }
+#lightbox .inner-list img			{ border:0px; }
+
+
+#lightbox .side .slider				{ position:relative; height:86px; width:250px; overflow:hidden; border:1px solid #222; margin:10px auto; }
+#lightbox .side .slider ul			{ width:99999px; list-style:none; position:absolute; left:83px; margin:0px; padding:0px; padding-top:10px;}
+#lightbox .side .slider ul li		{ float:left; list-style:none; width:83px; height:65px; text-align:center; }
+#lightbox .side .slider ul li img	{ border:1px solid #000; }
+#lightbox .side .slider ul li a		{ outline:none; }
+#lightbox .slider .next				{ background:url('/images/lightbox/next-slider.png') no-repeat; position:absolute; top:11px; right:5px; width:75px; height:65px; display:none; }
+#lightbox .slider .next:hover		{ background:url('/images/lightbox/next-slider_over.png') no-repeat; }
+#lightbox .slider .prev				{ background:url('/images/lightbox/prev-slider.png') no-repeat; position:absolute; top:11px; left:4px; width:75px; height:65px; display:none; }
+#lightbox .slider .prev:hover		{ background:url('/images/lightbox/prev-slider_over.png') no-repeat; }
+
+
+#lightbox .side .advert				{ width:300px; height:250px; border:#999; margin:5px; position:relative; }
+#lightbox .loader					{ position:absolute; top:300px; left:300px;  }
+#lightbox .thumbs					{ float:left; width:118px; height:25px; cursor:pointer; background:url('/images/lightbox/thumbsIcon.jpg') top no-repeat; }
+#lightbox .full						{ float:left; width:128px; height:25px; cursor:pointer; background:url('/images/lightbox/fsIcon.jpg') top no-repeat; }
+#lightbox .share					{ float:left; width:128px; height:25px; cursor:pointer; background:url('/images/lightbox/share.png') top no-repeat; }
+#lightbox .share:hover				{ background-position:0px -26px; }
+#lightbox .thumbs:hover				{ background-position:0px -26px; }
+#lightbox .full:hover				{ background-position:0px -26px; }
+
+
+#lightbox .email					{ height:0px; overflow:hidden; position:absolute; top:595px; left:204px; width:310px; background:url('/images/lightbox/share_background.png') no-repeat; z-index:999997; }
+#lightbox .email ul,
+#lightbox .email li					{ list-style:none; list-style-type:none; padding:0px; margin:0px; clear:both; }
+#lightbox .email li					{  }
+#lightbox .email div				{ padding:10px; position:relative; }
+#lightbox .email label				{ color:#FFF; display:inline-block; width:40px; text-align:right; float:left;}
+#lightbox .email textarea,
+#lightbox .email input				{ border:1px solid #000000; background:#FFF; color:#000; margin:1px; float:left; width:190px; }
+#lightbox .email input.error		{ background:#CC736B; }
+#lightbox .email textarea			{ height:40px; }
+#lightbox .email .button			{ color:#FFF; width:50px; background:#BB0000; border:0px; float:left; margin-top:24px; }
+#lightbox .email .error-message		{ color:#FF0000; text-align:center; font-weight:bold; }
+#lightbox .email .to-field,
+#lightbox .email .from-field		{ height:22px; }
+#lightbox .email .body-field		{ height:40px; }
+#lightbox .email .email-close		{ position:absolute; top:-10px; right:-10px; color:#CC0000; cursor:pointer; display:block; width:14px; height:14px; margin:20px 20px 0px 0px; }
+
+
+#trailerCont						{ }
+#trailerCont .trailer				{ width:140px; }
+#trailerCont .trailer img			{ width:135px; height:auto; }
+#trailerCont .trailer .w140			{ width:135px !important; }
+
+
+
+.main-content-col					{ width:642px; float:left; padding:10px 0px 0px 9px; text-align:left; background:#FFF; }
+.side-content-col					{ background:#FFF; float:left; margin:0; padding:10px 0 0; text-align:left; width:334px; }
+
+
+.tv-title							{ background:url('http://cdn-images.hollywood.com/site/tv_head_bg.jpg') repeat-y; color:#FFF; font-size:22px; padding-left:18px; }
+.celeb-title						{ background:url('http://cdn-images.hollywood.com/site/celeb_head_bg.jpg') repeat-y; color:#FFF; font-size:22px; padding-left:18px; }
+.movie-title						{ background:url('http://cdn-images.hollywood.com/site/movie_head_bg.jpg') repeat-y; color:#FFF; font-size:22px; padding-left:18px; }
+.boxoffice-title					{ background:url('http://cdn-images.hollywood.com/site/dvd_head_r.gif') repeat-y; color:#FFF; font-size:22px; padding-left:18px; }
+.dvd-title							{ background:url('http://cdn-images.hollywood.com/site/dvd_head_r.gif') repeat-y; color:#FFF; font-size:22px; padding-left:18px; }
+
+
+.main-component						{ margin-bottom:10px; }
+.side-component						{ border:1px solid #E1E1E1; margin:15px auto 0; padding:5px; width:300px; clear:both; }
+
+
+
+
+
+
+#main-footer						{ background:#555; color:#FFF; padding: 25px 35px 0px 35px; text-align:left; margin:0px 5px; }
+#main-footer h4						{ font-size:11px; font-weight:bold; color:#FFF; margin:0px; padding:0px; }
+#main-footer dl dt a				{ font-weight:bold; font-size:11px; text-decoration:none; color:#FFF; }
+#main-footer dl dt a:hover			{ text-decoration:underline; }
+#main-footer dl dd					{ color:#BABABA; }
+
+
+#main-footer .directory				{ background-color: #2A2A2A; float:left; width:450px; padding: 10px 5px 10px 15px; overflow: hidden; height:135px; } 
+#main-footer .network				{ background-color: #3E3E3E; float:left; width:420px; padding: 10px 5px 10px 15px; background-color: #3E3E3E; margin-left:10px; height:135px; } 
+#main-footer .links					{ clear:both; }
+
+
+.directory .dir-logo				{ margin-bottom:8px; }
+.directory .index					{ color:#CECECE; float: left; font-size:10px; width:112px; }
+.directory .index a					{ color:#CECECE; font-size:10px; }
+.directory .index ul				{ background:#3E3E3E; margin-top:10px; padding:8px 0px 3px 10px; list-style:none; }
+.directory .index li				{ padding-bottom:8px; list-style:none; }
+.directory .index li a				{ color:#FFF; font-weight:bold; font-size:11px; }
+.directory .index li a:hover		{ text-decoration:underline; }
+
+
+
+.directory .whats-on				{ width:320px; float:left; margin-left:15px; }
+.directory .whats-on h4				{ float:left; width:140px; }
+.directory .whats-on .rss			{ float:right; width:120px; text-align:left; }
+.directory .whats-on .rss img		{ border:0px; }
+.directory .whats-on .rss a			{ color:#FFF; }
+.directory .whats-on dl				{ float:left; width:140px; background:#3E3E3E; padding:12px 0px 12px 16px; margin:0px; margin-top:10px; }
+.directory .whats-on dt				{ float:left; width:75px; }
+.directory .whats-on dd				{ float:left; width:40px; text-align:left; padding:0px; margin:0px; }
+
+.network ul,
+.network li							{ list-style:none; margin:0px; padding:0px; }
+.network ul							{ padding-top:5px; }
+.network li							{ padding-top:3px; }
+.network li a						{ color:#BABABA; font-weight:normal; }
+.network li a:hover					{ text-decoration:underline; color:#BABABA; }
+.network .hw-network				{ width:160px; float:left; margin-top:8px; }
+.network .fan-network				{ width:120px; float:left; margin-top:8px; }
+.network .partners					{ width:120px; float:left; margin-top:8px; }
+
+
+#footerbottom,
+#footerbottom a					{ font-size:11px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#v-backdrop						{ background:url("/images/macFFBgHack.png") repeat scroll 0 0 transparent; left:0; position:absolute; top:0; display:none; z-index:99999; width:100%; height:100%; }
+#v-lightbox						{ width:970px; height:375px; margin:20px auto; position:relative; display:none; text-align:left; background:#000; border:1px solid #333; }
+#v-lightbox .close				{ position:absolute; top:-11px; right:-13px; height:26px; width:26px; background:url('/images/btn-close.png') no-repeat; }
+#v-lightbox .main				{ width:660px; float:left; text-align:center; position:relative; }
+#v-lightbox .side				{ width:300px; float:right; margin-right:5px; }
+#v-lightbox .share-icons		{ text-align:center; margin:35px 0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.credit-list					{ width:320px; float:left; padding:0px; margin:0px; }
+.credit-list dt					{ float:left; width:150px; text-align:right;  clear:both; padding:0px; margin:0px; }
+.credit-list dt a				{ text-align:right;}
+.credit-list dd 				{ float:left; width:120px; text-align:left; padding:0px; margin:0px; padding-left:30px; }
+
+
+
+
+div.chiclets		{ float:right; width:230px; }
+div.chiclet			{ float:right; height:100%; padding-left:5px; }
+div.chiclet a,		
+div.chiclet a img	{ border:none !important; }

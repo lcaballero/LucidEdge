@@ -1,0 +1,7 @@
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.Bootstrap\bin\Debug\LucidEdge.Html.Bootstrap.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.Bootstrap\bin\Debug\LucidEdge.Html.Bootstrap.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.Bootstrap\bin\Debug\LucidEdge.HtmlFragment.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.Bootstrap\bin\Debug\LucidEdge.HtmlFragment.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.Bootstrap\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.Bootstrap\obj\Debug\LucidEdge.Html.Bootstrap.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Html.Bootstrap\obj\Debug\LucidEdge.Html.Bootstrap.pdb

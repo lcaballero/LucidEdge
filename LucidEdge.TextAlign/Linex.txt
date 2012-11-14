@@ -1,0 +1,30 @@
+﻿
+
+1)	Maximum number of words in a line is 1/2 the characters per column.
+	That is single character words and spaces to fill up all the columns.
+
+2)	
+
+[
+  ["word1", "word2", "word3"],   // probable line 1
+  ["word1", "word2", "word3"],   // probable line 2
+  ["word1", "word2", "word3"]    // probable line 3
+]
+
+Dimensions:
+===========
+
+Opt-Lines( raw, alpha(), delta() )
+
+	Min[ line 1 starting with word 1 and ending with word n1 ]
+	+ Min[ line 2 starting with word n1 and ending with word n2 ]
+
+
+
+
+
+TODO:
+# Features for the js unit testing framework
+	# Selecting which fixture to run.
+		# Selecting which test in the fixture to run.
+	# Consolidate _Test.js hrefs to a single 'optional' file.

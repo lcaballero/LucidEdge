@@ -1,0 +1,17 @@
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\bin\Debug\LucidEdge.DataBase.Execution.Tests.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\bin\Debug\LucidEdge.DataBase.Execution.Tests.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\bin\Debug\LucidEdge.DataBase.Execution.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\bin\Debug\nunit.framework.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\bin\Debug\LucidEdge.DataBase.Execution.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\bin\Debug\nunit.framework.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\bin\Debug\nunit.framework.xml
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\obj\Debug\LucidEdge.DataBase.Execution.Tests.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\LucidEdge.DataBase.Execution.Tests\obj\Debug\LucidEdge.DataBase.Execution.Tests.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\bin\Debug\LucidEdge.DataBase.Execution.Tests.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\bin\Debug\LucidEdge.DataBase.Execution.Tests.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\bin\Debug\nunit.framework.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\bin\Debug\nunit.framework.xml
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\obj\Debug\LucidEdge.DataBase.Execution.Tests.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.Tests\obj\Debug\LucidEdge.DataBase.Execution.Tests.pdb

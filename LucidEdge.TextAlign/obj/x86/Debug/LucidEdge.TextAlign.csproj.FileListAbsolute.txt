@@ -1,0 +1,5 @@
+C:\Site\CS_Projects\LucidEdge\LucidEdge.TextAlign\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.TextAlign\bin\Debug\LucidEdge.TextAlign.exe
+C:\Site\CS_Projects\LucidEdge\LucidEdge.TextAlign\bin\Debug\LucidEdge.TextAlign.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.TextAlign\obj\x86\Debug\LucidEdge.TextAlign.exe
+C:\Site\CS_Projects\LucidEdge\LucidEdge.TextAlign\obj\x86\Debug\LucidEdge.TextAlign.pdb

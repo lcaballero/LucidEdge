@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Site\CS_Projects\ModOverflow\ModOverflow.DAL\ModOverflow.DAL.Tests\bin\Debug\ModOverflow.DAL.Tests.dll" total="11" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-11-10" time="23:53:17">
+  <environment nunit-version="2.6.0.0" clr-version="4.0.30319.233" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Site\CS_Projects\LucidEdge\NUnit_Compiled" machine-name="LUCIDEDGE" user="Lucas Caballero" user-domain="LucidEdge" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Site\CS_Projects\ModOverflow\ModOverflow.DAL\ModOverflow.DAL.Tests\bin\Debug\ModOverflow.DAL.Tests.dll" executed="True" result="Success" success="True" time="2.408" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ModOverflow" executed="True" result="Success" success="True" time="2.408" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="DAL" executed="True" result="Success" success="True" time="2.407" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="2.407" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="TableManipulation" executed="True" result="Success" success="True" time="2.044" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="Test_Insert_User" executed="True" result="Success" success="True" time="2.044" asserts="0">
+                        <results>
+                          <test-case name="ModOverflow.DAL.Tests.TableManipulation.Test_Insert_User.Insert_User" executed="True" result="Success" success="True" time="1.456" asserts="1" />
+                          <test-case name="ModOverflow.DAL.Tests.TableManipulation.Test_Insert_User.Read_Users" executed="True" result="Success" success="True" time="0.581" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="Test_Create_Tables" executed="True" result="Success" success="True" time="0.244" asserts="0">
+                    <results>
+                      <test-case name="ModOverflow.DAL.Tests.Test_Create_Tables.Create_All_Tables_Script" executed="True" result="Success" success="True" time="0.243" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="Test_Default_Column_Mapping_Instance" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                    <results>
+                      <test-case name="ModOverflow.DAL.Tests.Test_Default_Column_Mapping_Instance.Null_Constr_Params_Bad" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="Test_Fill_Domain_Object" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="ModOverflow.DAL.Tests.Test_Fill_Domain_Object.Fill_User_From_Data_Points" executed="True" result="Success" success="True" time="0.001" asserts="6" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="Test_Reflection_Column_Mapping" executed="True" result="Success" success="True" time="0.100" asserts="0">
+                    <results>
+                      <test-case name="ModOverflow.DAL.Tests.Test_Reflection_Column_Mapping.Find_Column_Mapping_Attributes" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                      <test-case name="ModOverflow.DAL.Tests.Test_Reflection_Column_Mapping.Find_Ignore_Attributes" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="ModOverflow.DAL.Tests.Test_Reflection_Column_Mapping.Find_Properties" executed="True" result="Success" success="True" time="0.050" asserts="2" />
+                      <test-case name="ModOverflow.DAL.Tests.Test_Reflection_Column_Mapping.Find_Values" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+                      <test-case name="ModOverflow.DAL.Tests.Test_Reflection_Column_Mapping.Map_DbType" executed="True" result="Success" success="True" time="0.001" asserts="7" />
+                      <test-case name="ModOverflow.DAL.Tests.Test_Reflection_Column_Mapping.Map_Nullable_DbType" executed="True" result="Success" success="True" time="0.001" asserts="6" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

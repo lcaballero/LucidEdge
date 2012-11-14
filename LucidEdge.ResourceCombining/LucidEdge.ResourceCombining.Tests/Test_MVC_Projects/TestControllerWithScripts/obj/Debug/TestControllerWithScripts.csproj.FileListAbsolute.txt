@@ -1,0 +1,9 @@
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\bin\Debug\TestControllerWithScripts.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\bin\Debug\TestControllerWithScripts.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\obj\Debug\TestControllerWithScripts.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\obj\Debug\TestControllerWithScripts.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\bin\Debug\LucidEdge.IHtml.ViewOrganization.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\bin\Debug\LucidEdge.HtmlFragment.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\bin\Debug\LucidEdge.IHtml.ViewOrganization.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestControllerWithScripts\bin\Debug\LucidEdge.HtmlFragment.pdb

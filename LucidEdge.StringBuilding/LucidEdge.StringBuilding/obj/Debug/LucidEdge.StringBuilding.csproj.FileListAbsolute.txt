@@ -1,0 +1,15 @@
+C:\Site\CS_Projects\LucidEdge\new-libs\LucidEdge.StringBuilding\bin\Debug\LucidEdge.StringBuilding.dll
+C:\Site\CS_Projects\LucidEdge\new-libs\LucidEdge.StringBuilding\bin\Debug\LucidEdge.StringBuilding.pdb
+C:\Site\CS_Projects\LucidEdge\new-libs\LucidEdge.StringBuilding\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\new-libs\LucidEdge.StringBuilding\obj\Debug\LucidEdge.StringBuilding.dll
+C:\Site\CS_Projects\LucidEdge\new-libs\LucidEdge.StringBuilding\obj\Debug\LucidEdge.StringBuilding.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\bin\Debug\LucidEdge.StringBuilding.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\bin\Debug\LucidEdge.StringBuilding.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\obj\Debug\LucidEdge.StringBuilding.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\obj\Debug\LucidEdge.StringBuilding.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\LucidEdge.StringBuilding\bin\Debug\LucidEdge.StringBuilding.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\LucidEdge.StringBuilding\bin\Debug\LucidEdge.StringBuilding.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\LucidEdge.StringBuilding\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\LucidEdge.StringBuilding\obj\Debug\LucidEdge.StringBuilding.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.StringBuilding\LucidEdge.StringBuilding\obj\Debug\LucidEdge.StringBuilding.pdb

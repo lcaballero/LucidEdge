@@ -1,0 +1,5 @@
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Arguments.MapBuilder\LucidEdge.Arguments.MapBuilder\bin\Debug\LucidEdge.Arguments.MapBuilder.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Arguments.MapBuilder\LucidEdge.Arguments.MapBuilder\bin\Debug\LucidEdge.Arguments.MapBuilder.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Arguments.MapBuilder\LucidEdge.Arguments.MapBuilder\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Arguments.MapBuilder\LucidEdge.Arguments.MapBuilder\obj\Debug\LucidEdge.Arguments.MapBuilder.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.Arguments.MapBuilder\LucidEdge.Arguments.MapBuilder\obj\Debug\LucidEdge.Arguments.MapBuilder.pdb

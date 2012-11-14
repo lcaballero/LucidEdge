@@ -1,0 +1,5 @@
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestOnlyControllers\obj\Debug\ResolveAssemblyReference.cache
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestOnlyControllers\bin\Debug\TestOnlyControllers.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestOnlyControllers\bin\Debug\TestOnlyControllers.pdb
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestOnlyControllers\obj\Debug\TestOnlyControllers.dll
+C:\Site\CS_Projects\LucidEdge\LucidEdge.ResourceCombining\LucidEdge.ResourceCombining.Tests\Test_MVC_Projects\TestOnlyControllers\obj\Debug\TestOnlyControllers.pdb
