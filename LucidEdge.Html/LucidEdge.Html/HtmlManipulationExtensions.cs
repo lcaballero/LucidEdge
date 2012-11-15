@@ -372,6 +372,17 @@ namespace LucidEdge.Html
 				falseFn == null ? n.ParseTagName() :
 				n.ParseTagName().AddClass(falseFn());
 		}
+
+		public static IHtml AddClassIf(this IHtml n, bool condition, Func<string> trueFn, Func<string> falseFn = null)
+		{
+			return
+			condition
+				? n.AddClass(trueFn())
+				:
+			falseFn == null
+				? n
+				: n.AddClass(falseFn());
+		}
 		#endregion Add Class If (string)
 
 		#region Add If (Node)
