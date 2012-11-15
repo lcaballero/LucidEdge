@@ -43,9 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\ActionFilters\CollectPropertiesAttributes.cs" />
     <Compile Include="Controllers\ActionFilters\FilterActionItems.cs" />
     <Compile Include="Controllers\ActionFilters\InlineModuleAttribute.cs" />
+    <Compile Include="Controllers\ActionFilters\InlineScriptsAttribute.cs" />
+    <Compile Include="Controllers\ActionFilters\JavaScriptPackageAttribute.cs" />
+    <Compile Include="Controllers\ActionFilters\ResourceCollectionAttribute.cs" />
+    <Compile Include="Controllers\ActionFilters\ScriptsAttribute.cs" />
+    <Compile Include="Controllers\ActionFilters\StylesAttribute.cs" />
+    <Compile Include="Controllers\ActionFilters\StylesheetPackageAttribute.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="HtmlDocument\DefaultDocument.cs" />
     <Compile Include="HtmlDocument\Document.cs" />
