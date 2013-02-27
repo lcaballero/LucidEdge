@@ -350,9 +350,9 @@ namespace LucidEdge.Html
 		public static IHtml AddIf(this string n, bool condition, Func<object> trueFn, Func<object> falseFn = null)
 		{
 			return
-			condition ? n.ParseTagName().Attr(trueFn()) :
+			condition ? n.Add(trueFn()) :
 			falseFn == null ? n.ParseTagName() :
-			n.ParseTagName().Attr(falseFn());
+			n.Add(falseFn());
 		}
 
 		public static IHtml AttrIf(this string n, bool condition, Func<object[]> trueFn, Func<object[]> falseFn = null)
