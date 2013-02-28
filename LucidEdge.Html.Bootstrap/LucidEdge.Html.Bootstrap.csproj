@@ -54,7 +54,15 @@
       <Name>LucidEdge.Html</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="LucidEdge.Html.Bootstrap.nuspec">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>powershell.exe -file %25mp_home%25\build-package.ps1 $(ConfigurationName) $(ProjectName)</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

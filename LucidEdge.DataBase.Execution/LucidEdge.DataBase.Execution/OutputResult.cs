@@ -10,7 +10,18 @@ namespace LucidEdge.DataBase.Execution
 	{
 		public int? FieldCount { get; set; }
 		public string TableName { get; set; }
+
+		/// <summary>
+		/// The columns found in the table.
+		/// </summary>
 		public List<OutputColumn> Columns { get; set; }
+
+		/// <summary>
+		/// Accumulates a list of data points in the form of Results and
+		/// Rows.  Each data point typically maps to a column and those
+		/// columns are typically mapped to a property in a strongly
+		/// typed map.
+		/// </summary>
 		public List<List<OutputPoint>> DataPoints { get; set; }
 
 		public OutputResult()

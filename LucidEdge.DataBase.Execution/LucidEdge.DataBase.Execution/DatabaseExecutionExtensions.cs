@@ -39,6 +39,7 @@ namespace LucidEdge.DataBase.Execution
 				DataPoints =
 					data_reader
 						.While(
+							(reader) => reader.Read(),
 							(reader, row) =>
 								(0).To(reader.FieldCount)
 									.Select(
@@ -53,25 +54,6 @@ namespace LucidEdge.DataBase.Execution
 									.ToList())
 						.ToList()
 			};
-		}
-
-		public static IEnumerable<T> While<T>(
-			this IDataReader reader,
-			Func<IDataReader, int, T> itemProvider)
-		{
-			return While(reader, (r) => r.Read(), itemProvider);
-		}
-
-		public static IEnumerable<T> While<T>(
-			this IDataReader reader,
-			Predicate<IDataReader> continueFn,
-			Func<IDataReader, int, T> itemProvider)
-		{
-			int row = 0;
-			while (continueFn(reader))
-			{
-				yield return itemProvider(reader, row++);
-			}
 		}
 	}
 }

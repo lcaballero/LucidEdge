@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.DataBase.Executio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.DataBase.Execution", "..\LucidEdge.DataBase.Execution\LucidEdge.DataBase.Execution.csproj", "{0A8938EB-D28B-4538-8145-2EB2CE40D73D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C4EF7ADD-6AD2-4D4D-A8BF-3AAF6B5BDE3B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

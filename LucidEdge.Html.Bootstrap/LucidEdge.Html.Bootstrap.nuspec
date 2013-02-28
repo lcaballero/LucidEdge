@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LucidEdge.Html.Bootstrap</id>
+    <version>1.0.0</version>
+    <title>LucidEdge.Html.Bootstrap</title>
+    <authors>Lucas Caballero</authors>
+    <owners>Lucas Caballero</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      LucidEdge.Html.Bootstrap
+    </description>
+    <summary>
+       LucidEdge.Html.Bootstrap
+     </summary>
+    <language>es-US</language>
+    <tags>map-building arguments</tags>
+    <references>
+      <reference file="LucidEdge.Html.Bootstrap.dll" />
+      <reference file="LucidEdge.Html.Bootstrap.pdb" />
+    </references>
+  </metadata>
+</package>

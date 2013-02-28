@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LucidEdge.DataBase.Execution</id>
+    <version>1.0.0</version>
+    <title>LucidEdge.DataBase.Execution</title>
+    <authors>Lucas Caballero</authors>
+    <owners>Lucas Caballero</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      LucidEdge.DataBase.Execution
+    </description>
+    <summary>
+       LucidEdge.DataBase.Execution
+     </summary>
+    <language>es-US</language>
+    <tags>map-building arguments</tags>
+    <references>
+      <reference file="LucidEdge.DataBase.Execution.dll" />
+      <reference file="LucidEdge.DataBase.Execution.pdb" />
+    </references>
+  </metadata>
+</package>

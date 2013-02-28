@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LucidEdge.StringBuilding</id>
+    <version>1.0.0</version>
+    <title>LucidEdge.StringBuilding</title>
+    <authors>Lucas Caballero</authors>
+    <owners>Lucas Caballero</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      A library that builds off of StringBuilder many common tasks,
+      and many helper extension functions that help in some very
+      common cases.
+    </description>
+    <summary>
+       A library that builds off of StringBuilder many common tasks,
+       and many helper extension functions that help in some very
+       common cases.
+     </summary>
+    <language>es-US</language>
+    <tags>StringBuilder C# .NET</tags>
+    <references>
+      <reference file="LucidEdge.StringBuilding.dll" />
+      <reference file="LucidEdge.StringBuilding.pdb" />
+    </references>
+  </metadata>
+</package>
