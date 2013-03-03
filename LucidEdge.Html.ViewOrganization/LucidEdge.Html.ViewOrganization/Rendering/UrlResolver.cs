@@ -17,10 +17,8 @@ namespace LucidEdge.Html.ViewOrganization.Rendering
 			get
 			{
 				return
-				_HrefResolver =
-				_HrefResolver == null
-					? new Lazy<IPathResolver>(() => new DefaultPathResolver())
-					: _HrefResolver;
+				_HrefResolver = _HrefResolver ??
+					new Lazy<IPathResolver>(() => new DefaultPathResolver());
 			}
 			set { _HrefResolver = value; }
 		}

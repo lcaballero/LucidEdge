@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.SimpleLineParser.Tests", "LucidEdge.SimpleLineParser.Tests.csproj", "{1140335D-A3C0-4ABB-A705-D5FC07721379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C278105D-AA1B-4B4E-948E-21D3F7B66111}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.SimpleLineParser", "..\LucidEdge.SimpleLineParser\LucidEdge.SimpleLineParser.csproj", "{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1140335D-A3C0-4ABB-A705-D5FC07721379}.Debug|x86.ActiveCfg = Debug|x86
+		{1140335D-A3C0-4ABB-A705-D5FC07721379}.Debug|x86.Build.0 = Debug|x86
+		{1140335D-A3C0-4ABB-A705-D5FC07721379}.Release|x86.ActiveCfg = Release|x86
+		{1140335D-A3C0-4ABB-A705-D5FC07721379}.Release|x86.Build.0 = Release|x86
+		{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}.Debug|x86.ActiveCfg = Debug|x86
+		{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}.Debug|x86.Build.0 = Debug|x86
+		{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}.Release|x86.ActiveCfg = Release|x86
+		{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

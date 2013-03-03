@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>LucidEdge.Html.ViewOrganization</id>
-    <version>1.0.0</version>
+    <version>1.0.6</version>
     <title>LucidEdge.Html.ViewOrganization</title>
     <authors>Lucas Caballero</authors>
     <owners>Lucas Caballero</owners>
@@ -15,6 +15,9 @@
      </summary>
     <language>es-US</language>
     <tags>map-building arguments</tags>
+    <dependencies>
+      <dependency id="LucidEdge.SimpleLineParser" version="1.0.0" />
+    </dependencies>
     <references>
       <reference file="LucidEdge.Html.ViewOrganization.dll" />
       <reference file="LucidEdge.Html.ViewOrganization.pdb" />

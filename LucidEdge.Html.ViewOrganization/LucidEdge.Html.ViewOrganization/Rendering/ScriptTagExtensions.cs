@@ -13,8 +13,7 @@ namespace LucidEdge.Html.ViewOrganization.Rendering.ScriptTags
 			return new List<string> { path }.ToScriptTags();
 		}
 
-		public static IEnumerable<IHtml> ToScriptTags(
-			this IEnumerable<string> paths)
+		public static IEnumerable<IHtml> ToScriptTags(this IEnumerable<string> paths)
 		{
 			return
 			paths

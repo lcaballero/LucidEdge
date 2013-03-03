@@ -11,6 +11,8 @@ namespace LucidEdge.Html.ViewOrganization.HtmlDocument
 	{
 		public virtual List<string> CombinedCss { get; set; }
 		public virtual List<string> CombinedJs { get; set; }
+		public virtual List<string> CssPackages { get; set; }
+		public virtual List<string> JsPackages { get; set; }
 		public virtual Func<string> OnDocumentReadyCode { get; set; }
 		public virtual string ResourceDirectory { get; set; }
 	}

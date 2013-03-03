@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Web;
 using System;
+using LucidEdge.Html.ViewOrganization.Rendering;
 
 
 namespace LucidEdge.Html.ViewOrganization.Controllers.ActionFilters
@@ -41,6 +42,12 @@ namespace LucidEdge.Html.ViewOrganization.Controllers.ActionFilters
 		{
 			get { return "StylesheetPackages".Get<List<string>>(); }
 			set { "StylesheetPackages".Set<List<string>>(value); }
+		}
+
+		public static AppHomePathResolver HomeResolver
+		{
+			get { return "AppHomePathResolver".Get<AppHomePathResolver>(); }
+			set { "AppHomePathResolver".Set<AppHomePathResolver>(value); }
 		}
 
 		public static T Get<T>(this string s)

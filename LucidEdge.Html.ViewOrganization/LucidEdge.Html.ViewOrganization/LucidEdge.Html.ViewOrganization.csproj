@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ActionFilters\FilterActionItems.cs" />
+    <Compile Include="Controllers\ActionFilters\HomePathAttribute.cs" />
     <Compile Include="Controllers\ActionFilters\InlineModuleAttribute.cs" />
     <Compile Include="Controllers\ActionFilters\InlineScriptsAttribute.cs" />
     <Compile Include="Controllers\ActionFilters\JavaScriptPackageAttribute.cs" />
@@ -58,11 +59,13 @@
     <Compile Include="HtmlDocument\DocumentResources.cs" />
     <Compile Include="HtmlDocument\HtmlContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rendering\AppHomePathResolver.cs" />
     <Compile Include="Rendering\DefaultPathResolver.cs" />
     <Compile Include="Rendering\DocTypeExtensions.cs" />
     <Compile Include="Rendering\IPathResolver.cs" />
     <Compile Include="Rendering\JsInlineExtensions.cs" />
     <Compile Include="Rendering\LinkTagExtensions.cs" />
+    <Compile Include="Rendering\ResourceRendering.cs" />
     <Compile Include="Rendering\ScriptTagExtensions.cs" />
     <Compile Include="Rendering\UrlResolver.cs" />
   </ItemGroup>
@@ -70,6 +73,10 @@
     <ProjectReference Include="..\..\LucidEdge.Html\LucidEdge.Html\LucidEdge.Html.csproj">
       <Project>{1BF3BBB2-EBAE-4289-A489-4A59F64EDC4A}</Project>
       <Name>LucidEdge.Html</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LucidEdge.SimpleLineParser\LucidEdge.SimpleLineParser\LucidEdge.SimpleLineParser.csproj">
+      <Project>{bcc07532-fd3b-4e1a-9e9a-9b5c28737c8f}</Project>
+      <Name>LucidEdge.SimpleLineParser</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

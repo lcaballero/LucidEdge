@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LucidEdge.SimpleLineParser</id>
+    <version>1.0.1</version>
+    <title>LucidEdge.SimpleLineParser</title>
+    <authors>Lucas Caballero</authors>
+    <owners>Lucas Caballero</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Functions for parsing text and files of lines that follow this format
+
+      # Lines that start with '#' are comments
+      And lines that don't are considered source lines, and
+
+      empty lines are consider non-essential and not returned by parse methods.
+    </description>
+    <summary>
+      Functions for parsing text and files of lines that follow this format
+
+      # Lines that start with '#' are comments
+      And lines that don't are considered source lines, and
+
+      empty lines are consider non-essential and not returned by parse methods.
+    </summary>
+    <language>es-US</language>
+    <tags>Parsing C# .NET</tags>
+    <references>
+      <reference file="LucidEdge.SimpleLineParser.dll" />
+      <reference file="LucidEdge.SimpleLineParser.pdb" />
+    </references>
+  </metadata>
+</package>
