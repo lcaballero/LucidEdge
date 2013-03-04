@@ -64,10 +64,7 @@ namespace LucidEdge.Html.ViewOrganization.Controllers.ActionFilters
 		public static T Set<T>(this string s, T item)
 			where T : new()
 		{
-			if (!HttpContext.Current.Items.Contains(s))
-			{
-				HttpContext.Current.Items[s] = item;
-			}
+			HttpContext.Current.Items[s] = item;
 
 			return (T)HttpContext.Current.Items[s];
 		}

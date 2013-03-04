@@ -36,6 +36,7 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ActionFilters\ActionParams.cs" />
+    <Compile Include="Controllers\ActionFilters\AutoCssPackageAttribute.cs" />
+    <Compile Include="Controllers\ActionFilters\AutoJsPackageAttribute.cs" />
     <Compile Include="Controllers\ActionFilters\FilterActionItems.cs" />
     <Compile Include="Controllers\ActionFilters\HomePathAttribute.cs" />
     <Compile Include="Controllers\ActionFilters\InlineModuleAttribute.cs" />
@@ -52,6 +56,7 @@
     <Compile Include="Controllers\ActionFilters\ScriptsAttribute.cs" />
     <Compile Include="Controllers\ActionFilters\StylesAttribute.cs" />
     <Compile Include="Controllers\ActionFilters\StylesheetPackageAttribute.cs" />
+    <Compile Include="Controllers\ActionParametersAttribute.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="HtmlDocument\DefaultDocument.cs" />
     <Compile Include="HtmlDocument\Document.cs" />
@@ -82,6 +87,7 @@
   <ItemGroup>
     <None Include="LucidEdge.Html.ViewOrganization.nuspec">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
