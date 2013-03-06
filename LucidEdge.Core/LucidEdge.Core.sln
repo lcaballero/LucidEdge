@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.TextAlign", "..\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.SimpleLineParser", "..\LucidEdge.SimpleLineParser\LucidEdge.SimpleLineParser\LucidEdge.SimpleLineParser.csproj", "{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidEdge.DataMapping", "..\LucidEdge.DataMapping\LucidEdge.DataMapping\LucidEdge.DataMapping.csproj", "{5F1347A5-3446-4F01-A947-3DFE877C30B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,16 @@ Global
 		{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}.Release|Mixed Platforms.Build.0 = Release|x86
 		{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}.Release|x86.ActiveCfg = Release|x86
 		{BCC07532-FD3B-4E1A-9E9A-9B5C28737C8F}.Release|x86.Build.0 = Release|x86
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5F1347A5-3446-4F01-A947-3DFE877C30B6}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

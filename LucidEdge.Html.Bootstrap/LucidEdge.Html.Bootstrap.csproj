@@ -49,19 +49,13 @@
     <Compile Include="Validation.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LucidEdge.Html\LucidEdge.Html\LucidEdge.Html.csproj">
-      <Project>{1BF3BBB2-EBAE-4289-A489-4A59F64EDC4A}</Project>
-      <Name>LucidEdge.Html</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="LucidEdge.Html.Bootstrap.nuspec">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>powershell.exe -file %25mp_home%25\build-package.ps1 $(ConfigurationName) $(ProjectName)</PostBuildEvent>
+    <PostBuildEvent>rem powershell.exe -file %25mp_home%25\build-package.ps1 $(ConfigurationName) $(ProjectName)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
