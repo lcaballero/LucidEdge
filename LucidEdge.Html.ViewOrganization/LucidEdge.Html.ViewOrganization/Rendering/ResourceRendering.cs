@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web;
@@ -48,6 +49,7 @@ namespace LucidEdge.Html.ViewOrganization.Rendering
 					: (doc.Resources.CssPackages ?? new List<string>());
 
 			var contextCss = FilterActionItems.Styles ?? new List<string>();
+
 			var documentCss =
 				doc == null || doc.Resources == null || doc.Resources.CombinedCss == null
 					? new List<string>()
@@ -55,14 +57,39 @@ namespace LucidEdge.Html.ViewOrganization.Rendering
 
 			var lines = contextPackages
 				.Concat(documentPackages)
-				.SelectMany(
-					s =>
-					LinesReader.Parse(
-						File.ReadAllText(FilterActionItems.HomeResolver.ResolveUrl(s))))
+				.SelectMany(Files)
 				.Concat(documentPackages)
 				.ToList();
 
 			return lines;
+		}
+
+		public static IEnumerable<string> ParsePack(this string path)
+		{
+			return
+			LinesReader.Parse(
+				File.ReadAllText(FilterActionItems.HomeResolver.ResolveUrl(path)));
+		}
+
+		public static IEnumerable<string> Files(this string root)
+		{
+			return
+			ParsePack(root)
+				.SelectMany(
+					f =>
+					{
+						var files =
+							f.EndsWith(".pack")
+								? f.ParsePack()
+								: f.Lift();
+
+						return files;
+					});
+		}
+
+		public static IEnumerable<T> Lift<T>(this T t)
+		{
+			yield return t;
 		}
 
 		public static IEnumerable<string> ToScriptPaths(this IDocument doc)
@@ -83,10 +110,7 @@ namespace LucidEdge.Html.ViewOrganization.Rendering
 
 			var lines = contextPackages
 				.Concat(documentPackages)
-				.SelectMany(
-					s =>
-					LinesReader.Parse(
-						File.ReadAllText(FilterActionItems.HomeResolver.ResolveUrl(s))))
+				.SelectMany(Files)
 				.Concat(documentPackages)
 				.ToList();
 

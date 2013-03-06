@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LucidEdge.DataMapping</id>
+    <version>1.0.2</version>
+    <title>LucidEdge.DataMapping</title>
+    <authors>Lucas Caballero</authors>
+    <owners>Lucas Caballero</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      LucidEdge.DataMapping
+    </description>
+    <summary>
+      LucidEdge.DataMapping
+    </summary>
+    <language>es-US</language>
+    <tags></tags>
+    <references>
+      <reference file="LucidEdge.DataMapping.dll" />
+      <reference file="LucidEdge.DataMapping.pdb" />
+    </references>
+  </metadata>
+</package>

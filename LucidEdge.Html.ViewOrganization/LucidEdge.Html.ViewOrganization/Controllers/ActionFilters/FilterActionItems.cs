@@ -50,6 +50,12 @@ namespace LucidEdge.Html.ViewOrganization.Controllers.ActionFilters
 			set { "AppHomePathResolver".Set<AppHomePathResolver>(value); }
 		}
 
+		public static VirtualPathResolver VirtualPathResolver
+		{
+			get { return "VirtualPathResolver".Get<VirtualPathResolver>(); }
+			set { "VirtualPathResolver".Set<VirtualPathResolver>(value); }
+		}
+
 		public static T Get<T>(this string s)
 			where T : new()
 		{

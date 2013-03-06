@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>LucidEdge.Html.ViewOrganization</id>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
     <title>LucidEdge.Html.ViewOrganization</title>
     <authors>Lucas Caballero</authors>
     <owners>Lucas Caballero</owners>
