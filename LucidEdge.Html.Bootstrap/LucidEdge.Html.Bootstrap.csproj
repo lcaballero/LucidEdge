@@ -53,6 +53,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LucidEdge.Html\LucidEdge.Html\LucidEdge.Html.csproj">
+      <Project>{1bf3bbb2-ebae-4289-a489-4a59f64edc4a}</Project>
+      <Name>LucidEdge.Html</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>rem powershell.exe -file %25mp_home%25\build-package.ps1 $(ConfigurationName) $(ProjectName)</PostBuildEvent>

@@ -77,6 +77,10 @@
     <Compile Include="Rendering\VirtualPathResolver.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\LucidEdge.Html\LucidEdge.Html\LucidEdge.Html.csproj">
+      <Project>{1bf3bbb2-ebae-4289-a489-4a59f64edc4a}</Project>
+      <Name>LucidEdge.Html</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\LucidEdge.SimpleLineParser\LucidEdge.SimpleLineParser\LucidEdge.SimpleLineParser.csproj">
       <Project>{bcc07532-fd3b-4e1a-9e9a-9b5c28737c8f}</Project>
       <Name>LucidEdge.SimpleLineParser</Name>
